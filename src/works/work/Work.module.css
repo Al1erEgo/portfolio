@@ -1,0 +1,41 @@
+.work {
+    width: 250px;
+    min-height: 150px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    max-width: 250px;
+    height: 160px;
+    background-image: url(https://photogora.ru/img/product/thumb/4947/5d2ef838a9cc69778828569119077791.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #99d0fb;
+    display: flex;
+}
+
+.background > h4 {
+    margin: auto;
+    padding: 5px;
+    background-color: #d4ffc0;
+}
+
+.descriptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.workTitle {
+    font-weight: bold;
+}
+
+.description {
+    flex: 0 0 auto;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-break: keep-all;
+}

@@ -1,0 +1,24 @@
+.hireBlock {
+    min-height: 20vh;
+    background-color: #ace181;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.hireContainer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+h2 {
+    margin: 0;
+}
+
+.hireMe {
+    background-color: #f68181;
+    padding: 5px;
+    font-weight: bold;
+    font-size: large;
+}
